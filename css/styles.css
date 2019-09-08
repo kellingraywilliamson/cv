@@ -1,23 +1,122 @@
 body {
-  background-color: #fcf9ea;
+  margin: 0;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  color: #40514e;
 }
 
 h1 {
-  color: #f8a978;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Patrick Hand', cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
 }
 
 h3 {
-  color: #f8a978;
+  font-family: 'Barlow', sans-serif;
+  color: #11999e;
 }
-img {
-  border-radius: 50%;
-  border-width: thick;
-  border-color: #badfdb;
-  border-style: solid;
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 hr {
-  border-style: dotted;
-  border-width: 5px 0 0 0;
-  border-color: #badfdb;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topContainer {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.profilePic {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.skillImageLeft {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skillImageRight {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto auto auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  background-color: #66bfbf;
+}
+
+.footer-link {
+  margin: 0 10px;
+}
+
+.copyright {
+  margin: 0;
+}
+
+.form {
+  margin: auto auto 20px auto;
+}
+
+.testbutton {
+  font-family: 'Barlow', sans-serif;
+  color: #FFFFFF !important;
+  font-size: 1rem;
+  margin: 40px auto 40px;
+  padding: 10px 25px;
+  border-radius: 7px;
+  background: #66BFBF;
+}
+
+.testbutton:hover {
+  color: #000000 !important;
+  background: #EAF6F6;
 }
