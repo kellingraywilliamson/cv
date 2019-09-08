@@ -1,0 +1,23 @@
+body {
+  background-color: #fcf9ea;
+}
+
+h1 {
+  color: #f8a978;
+}
+
+h3 {
+  color: #f8a978;
+}
+img {
+  border-radius: 50%;
+  border-width: thick;
+  border-color: #badfdb;
+  border-style: solid;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 5px 0 0 0;
+  border-color: #badfdb;
+}
